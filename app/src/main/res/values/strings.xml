@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">crp</string>
+    <string name="cerrar_sesion">cerrar sesión</string>
+    <string name="snackbar_edittext_error">completa el nombre</string>
+    <string name="platform">android</string>
+    <string name="login">Login</string>
+    <string name="hint_name_device">Ingresa un nombre para el dispositivo</string>
+</resources>

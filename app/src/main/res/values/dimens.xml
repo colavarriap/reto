@@ -1,0 +1,38 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Size -->
+    <dimen name="size_2">2dp</dimen>
+    <dimen name="size_4">4dp</dimen>
+    <dimen name="size_8">8dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_24">24dp</dimen>
+    <dimen name="size_28">28dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_40">40dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+    <dimen name="size_50">50dp</dimen>
+    <dimen name="size_52">52dp</dimen>
+    <dimen name="size_72">72dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_27">27sp</dimen>
+    <dimen name="text_size_34">34sp</dimen>
+    <dimen name="size_34">34dp</dimen>
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="height_max">100dp</dimen>
+
+
+</resources>

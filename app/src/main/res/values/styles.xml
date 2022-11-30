@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DIALOG -->
+
+    <style name="ProyectoDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="materialAlertDialogTitleTextStyle">
+            @style/DialogTitleStyle
+        </item>
+        <item name="materialAlertDialogBodyTextStyle">
+            @style/DialogMessageStyle
+        </item>
+        <item name="android:background">@color/white</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+
+    </style>
+
+    <style name="DialogTitleStyle" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">@style/TitleTextAppearance</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_17</item>
+    </style>
+
+    <style name="DialogMessageStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textAppearance">@style/MessageTextAppearance</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_13</item>
+    </style>
+
+    <style name="TitleTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="MessageTextAppearance" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="ProyectoDialog.PositiveButtonYellow">
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyleRed</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyleGrey</item>
+    </style>
+
+    <style name="PositiveButtonStyleRed" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/accent_color</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="NegativeButtonStyleGrey" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/grey_600</item>
+        <item name="android:textSize">@dimen/text_size_15</item>
+    </style>
+
+    <style name="FullScreenDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:panelBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogFragment" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogRight" parent="android:Theme.Dialog">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateUnchanged</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="DialogFullscreen" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent_notification</item>
+    </style>
+
+    <!-- SPLASH -->
+
+    <style name="Theme.crp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.crp</item>
+    </style>
+
+    <!-- NAVIGATION -->
+
+    <style name="ProyectoBottomNavigationView">
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationViewTextStyle</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationViewTextStyle</item>
+        <item name="itemTextColor">@color/selector_color_bottom_navigationview_text</item>
+        <item name="itemIconTint">@color/selector_color_bottom_navigationview_text</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <!-- FLOATING BUTTON -->
+
+    <style name="ShapeAppearanceOverlayExtended" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeTopLeft">10%</item>
+        <item name="cornerSizeTopRight">10%</item>
+        <item name="cornerSizeBottomLeft">10%</item>aaa
+        <item name="cornerSizeBottomRight">10%</item>
+    </style>
+
+    <!-- TRANSPARENT BACKGROUND -->
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#59000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="Theme.Transparentl" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="ScrollbarRecyclerView" parent="android:Widget">
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+</resources>
